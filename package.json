@@ -1,0 +1,29 @@
+{
+  "name": "currency_conv_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "temp": "echo temp",
+    "devRun": "nodemon ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.2.5",
+    "@types/node-fetch": "^2.6.4",
+    "@types/nodemon": "^1.19.2",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.11",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "dotenv": "^16.1.4"
+  }
+}
